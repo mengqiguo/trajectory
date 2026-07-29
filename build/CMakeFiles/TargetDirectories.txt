@@ -1,0 +1,3 @@
+/data/mengqi/trajectory_smoother/build/CMakeFiles/fem_smoother.dir
+/data/mengqi/trajectory_smoother/build/CMakeFiles/edit_cache.dir
+/data/mengqi/trajectory_smoother/build/CMakeFiles/rebuild_cache.dir

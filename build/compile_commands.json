@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/data/mengqi/trajectory_smoother/build",
+  "command": "/usr/bin/g++ -DOSQP_SHARED_LIB -I/data/mengqi/trajectory_smoother/include -isystem /usr/local/include/osqp  -Wall -O2 -g -std=gnu++14 -o CMakeFiles/fem_smoother.dir/src/main.cpp.o -c /data/mengqi/trajectory_smoother/src/main.cpp",
+  "file": "/data/mengqi/trajectory_smoother/src/main.cpp"
+},
+{
+  "directory": "/data/mengqi/trajectory_smoother/build",
+  "command": "/usr/bin/g++ -DOSQP_SHARED_LIB -I/data/mengqi/trajectory_smoother/include -isystem /usr/local/include/osqp  -Wall -O2 -g -std=gnu++14 -o CMakeFiles/fem_smoother.dir/src/trajectory_smoother.cpp.o -c /data/mengqi/trajectory_smoother/src/trajectory_smoother.cpp",
+  "file": "/data/mengqi/trajectory_smoother/src/trajectory_smoother.cpp"
+}
+]

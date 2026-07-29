@@ -1,0 +1,1 @@
+/usr/bin/g++  -Wall -O2 -g CMakeFiles/fem_smoother.dir/src/main.cpp.o CMakeFiles/fem_smoother.dir/src/trajectory_smoother.cpp.o -o fem_smoother  -Wl,-rpath,/usr/local/lib /usr/local/lib/libosqp.so 

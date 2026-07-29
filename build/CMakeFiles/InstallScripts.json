@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/data/mengqi/trajectory_smoother/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

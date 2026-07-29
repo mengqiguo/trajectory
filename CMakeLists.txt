@@ -1,18 +1,20 @@
 cmake_minimum_required(VERSION 3.10)
-project(trajectory_smoother)
-set(CMAKE_CXX_STANDARD 17)
-find_package(Eigen3 REQUIRED)
+project(FemSmoother)
 
-include_directories(
-include(${EIGEN3_INCLUDE_DIR})
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# 查找 OSQP（已安装后会导出 CMake config）
+find_package(osqp CONFIG REQUIRED)
+
+# 源文件
+add_executable(fem_smoother
+    src/main.cpp
+    src/trajectory_smoother.cpp
 )
 
+target_include_directories(fem_smoother PRIVATE include)
+target_link_libraries(fem_smoother PRIVATE osqp::osqp)
 
-
-add_executable(
-trajectory_demo
-app/main.cpp
-src/frenet_converter.cpp
-src/qp_smoother.cpp
-src/trajectory_smoother.cpp
-)
+# 如果需要调试信息
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -O2")
