@@ -39,7 +39,7 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Build type for single-configuration generators (Makefile Generators, Ninja, etc.). Typical values: Debug, Release, RelWithDebInfo, MinSizeRel; custom build types may also be defined."
+					"value" : "No help, variable specified on the command line."
 				}
 			],
 			"type" : "STRING",
@@ -155,10 +155,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "/usr/bin/g++"
 		},
 		{
@@ -283,10 +283,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "/usr/bin/gcc"
 		},
 		{
@@ -551,7 +551,7 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Enable output of a compile_commands.json file listing the exact compiler invocation for each translation unit. Implemented by the Makefile and Ninja generators; ignored elsewhere."
+					"value" : "No help, variable specified on the command line."
 				}
 			],
 			"type" : "BOOL",
